@@ -15,6 +15,12 @@ Might want to limit the window to only be able to open one window.
 
 */
 
+/*
+
+It looks like it might be better to have a JDialog or JOptionPane
+
+*/
+
 package helloworld;
 
 import java.awt.event.ActionEvent;
@@ -68,7 +74,7 @@ public class NewWindowExample extends JPanel{
                 public void run() {
                     createNewGUI();
                 }
-            });
+            });         
         }
 
 }
